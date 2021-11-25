@@ -1,0 +1,87 @@
+/* index */
+body {
+  background: linear-gradient(to right, #ffffff, #6bcefc);
+  padding: 10 10 10 10;
+}
+
+.animation {
+  padding: 30px 30px 30px 30px;
+}
+.judul {
+  padding-top: 150px;
+}
+#tombol {
+  margin-top: 20px;
+}
+
+/* animation css */
+.ml11 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* login */
+.container-login {
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+/* homepage */
+.judul-homepage {
+  background-color: #0d6efd;
+  color: #ffffff;
+  margin-bottom: -10px;
+}
+
+.welcome {
+  margin-top: 100px;
+}
+.user {
+  color: #0d6efd;
+  margin-top: 50px;
+}
+
+/* inventaris */
+.tambah-barang {
+  margin: 10px 0 10px 10px;
+}
+.container-inventaris {
+  max-width: 1200px;
+}
+
+/* edit */
+.judul-edit {
+  margin: 20px 0 -30px 0;
+}
+
+.tb-isi {
+  margin-top: 10px;
+}
